@@ -1,4 +1,4 @@
-var ws = new WebSocket('ws://coolcoolchat.herokuapp.com');
+var ws = new WebSocket('wss://coolcoolchat.herokuapp.com');
 
 function send(obj) {
 	ws.send(JSON.stringify(obj))
